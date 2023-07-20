@@ -4,42 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>Trendsetter's Customs</title>
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <!-- Trendsetter's name routes back to top of screen -->
-            <a href="#" class="navbar-brand" id="top-brand">Trendsetter's</a>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <!-- Trendsetter's name routes back to top of screen -->
+                <a href="#" class="navbar-brand" id="top-brand">Trendsetter's <span
+                        class="text-secondary">Customs</span></a>
 
-            <!-- Create a button for toggle of the menu -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <!-- Using a span for the actual icon to respond to screen width -->
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <!-- Create a button for toggle of the menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <!-- Using a span for the actual icon to respond to screen width -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!-- Group the Navigation Menu together -->
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Powder Coating</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Audio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                </ul>
+                <!-- Group the Navigation Menu together -->
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Powder Coating</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Audio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <main>
+    <main id="home">
         <!-- Top Section: Showcase -->
         <section id="showcase">
             <!-- In-section Container -->
@@ -48,7 +52,7 @@
                 <div>
                     <!-- Div with the Heading, descriptive paragraph, and a Button for Quote -->
                     <div>
-                        <h1>Make your Dream Come Alive</h1>
+                        <h1>Make your Dream <span class="text-secondary">Come Alive</span></h1>
                         <p>We focus on bringing our clients' vision into the real world using the highest quality
                             premium materials and latest technologies to prepare them for the attention they will
                             inevitably get.</p>
@@ -128,6 +132,14 @@
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="index-footer">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2023 Trendsetter's Customs</p>
+            <p class="hound">Created by SiteHound</p>
+        </div>
+    </footer>
 </body>
 
 </html>

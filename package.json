@@ -1,0 +1,25 @@
+{
+  "name": "tsvanilla",
+  "version": "1.0.0",
+  "description": "Vanilla HTML, CSS, and JS version of Trendsetters in Live Oak",
+  "main": "main.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f2hodge/tsVanilla.git"
+  },
+  "keywords": [
+    "vanilla"
+  ],
+  "author": "SiteHound",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f2hodge/tsVanilla/issues"
+  },
+  "homepage": "https://github.com/f2hodge/tsVanilla#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
